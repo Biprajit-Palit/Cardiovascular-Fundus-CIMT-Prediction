@@ -1,0 +1,26 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Training checkpoints (large files)
+checkpoints/
+checkpoints_stacking/
+
+# Raw dataset (do not upload without permission)
+data/images/
+data/data_info.json
+
+# Generated prediction files
+predictions/
+predictions_stacking/
+
+# Temporary and stacking experiment outputs
+results_stacking/
+fusion_results_holdout/
+
+# Local temporary files
+*.tmp
+.DS_Store
